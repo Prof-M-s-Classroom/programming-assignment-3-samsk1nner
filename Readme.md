@@ -4,7 +4,7 @@
 ## Author
 Sam Skinner
 
-## Description
+## Description      // TODO
 Briefly describe what your program does and how the code is structured.
 
 ## Files
@@ -17,7 +17,7 @@ Briefly describe what your program does and how the code is structured.
 This project was developed and tested in CLion.  
 Run directly from the IDE.
 
-## Time Complexity Analysis
+## Time Complexity Analysis         // TODO
 
 
 | Operation            | Time Complexity   |
@@ -29,6 +29,6 @@ Run directly from the IDE.
 
 _Explain why your MST implementation has the above runtime._
 
-## Test Case Description
+## Test Case Description        // TODO
 
 Input:  
