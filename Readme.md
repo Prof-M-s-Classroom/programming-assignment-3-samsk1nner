@@ -52,7 +52,7 @@ adjacency matrix, but also the total edge weights in the final output.
 1. The first edge case: a graph with 1 vertex
 Input: 1 vertex, Output: 0 Edges for cost = 0.
 2. Star Graph: no central vertex.
-Input: 5 Vertices. Output: 0-1: "5" --> 0-2: "3" --> 0-3: "4" --> 0-4: "1". Total cost = 14
+Input: 5 Vertices. Output: 0-1: "5" --> 0-2: "3" --> 0-3: "4" --> 0-4: "1". Total cost = 13
 
 ## Challenges
 I was banging my head against a wall with a SigSegv error: "(Process finished with exit code 139 (interrupted by signal 11:SIGSEGV))".

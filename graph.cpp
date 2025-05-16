@@ -1,6 +1,7 @@
 #include "heap.h"
 #include "graph.h"
 #include <iostream>
+#include <climits>
 using namespace std;
 
 Graph::Graph(int vertices) {

@@ -45,7 +45,7 @@ int MinHeap::extractMin() {
     heapArray[0] = lastNode;
     position[root] = -1;
     position[lastNode] = 0; // position of last node at index 0
-    keyArray[0] = heapArray[0];
+    keyArray[0] = heapArray[size -1];
 
     size--; // dec size
     minHeapify(0);
