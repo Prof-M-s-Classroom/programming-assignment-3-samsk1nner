@@ -5,8 +5,9 @@ class Graph {
 public:
     Graph(int vertices);
     ~Graph();
+
     void addEdge(int u, int v, int weight);
-    void primMST();  // Must print MST edges and total weight
+    void primMST();
 
 private:
     int** adjMatrix;

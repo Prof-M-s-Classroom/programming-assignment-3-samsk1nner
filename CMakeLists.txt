@@ -3,4 +3,4 @@ project(PA3)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(PA3 main.cpp graph.h heap.h)
+add_executable(PA3 main.cpp graph.cpp heap.cpp)

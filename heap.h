@@ -1,10 +1,12 @@
 #ifndef HEAP_H
 #define HEAP_H
+#include <utility>
 
 class MinHeap {
 public:
     MinHeap(int capacity);
     ~MinHeap();
+
     void insert(int vertex, int key);
     int extractMin();
     void decreaseKey(int vertex, int newKey);
