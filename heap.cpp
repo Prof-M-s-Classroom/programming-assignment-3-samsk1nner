@@ -20,8 +20,7 @@ MinHeap::~MinHeap() {
 }
 
 void MinHeap::insert(int vertex, int key) {
-    if (size == capacity) {
-        // EDGE CASE, terminate program if heap is full.
+    if (size == capacity){
         return;
     }
     size++;
